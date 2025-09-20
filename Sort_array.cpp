@@ -1,3 +1,4 @@
+//sort the array in ascending order.
 #include<iostream>
 using namespace std;
 int main(){
