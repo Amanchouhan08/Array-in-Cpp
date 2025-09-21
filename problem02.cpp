@@ -14,3 +14,5 @@ for(int i=0;i<5;i++){
 cout<<index;
  return 0;
 }
+
+// o/p- 4
