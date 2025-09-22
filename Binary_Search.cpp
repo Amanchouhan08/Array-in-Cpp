@@ -14,7 +14,6 @@ int main(){
         cout<<arr[k]<<" ";
     }
     cout<<endl;
-
     //sort the array
      for(int i=0;i<size_of_arrar-1;i++){
         for(int j=i+1;j<=size_of_arrar-1;j++){
@@ -23,18 +22,15 @@ int main(){
             }
         }
     }
-
     //sorted array output
      for(int k=0;k<size_of_arrar;k++){
         cout<<arr[k]<<" ";
     }
 
     cout<<endl;
-
     cout<<"enter the target value:"<<endl;
     int target;
     cin>>target;
-    
     //Binary search
     int start=0;
     int end=size_of_arrar;
