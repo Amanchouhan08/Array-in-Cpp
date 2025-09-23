@@ -14,6 +14,7 @@ int main(){
         cout<<arr[k]<<" ";
     }
     cout<<endl;
+
     //sort the array
      for(int i=0;i<size_of_arrar-1;i++){
         for(int j=i+1;j<=size_of_arrar-1;j++){
@@ -22,28 +23,31 @@ int main(){
             }
         }
     }
+    cout<<"your sorted array"<<endl;
     //sorted array output
      for(int k=0;k<size_of_arrar;k++){
         cout<<arr[k]<<" ";
     }
 
     cout<<endl;
+
     cout<<"enter the target value:"<<endl;
     int target;
     cin>>target;
+    
     //Binary search
     int start=0;
-    int end=size_of_arrar;
-    int mid;
-    while(mid=(start+end)/2){
+    int end=size_of_arrar-1;
+    while(start<=end){
+        int mid=(start+end)/2;
         if(arr[mid]==target){
             cout<<arr[mid]<<" is present in the array element with index value "<<mid<<endl;
             break;
         }
         else if(arr[mid]>target){
-            end=size_of_arrar-1;
+            end=mid-1;
         }
-        else if(arr[mid]<target){
+        else{
             start=mid+1;
         }
     } 
