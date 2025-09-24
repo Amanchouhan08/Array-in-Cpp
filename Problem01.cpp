@@ -1,4 +1,6 @@
 //find the smallest and largest value in array.
+// INT_MIN is a in built keyword to hold vary smallest value.
+// INT_MAX is a in built keyword to hold very largest value.
 #include<iostream>;
 using namespace std;
 int main(){
