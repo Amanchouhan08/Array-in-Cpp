@@ -53,3 +53,22 @@ int main(){
     } 
     return 0;
 }
+
+
+/*
+ int start=0;
+    int end=size_of_arrar-1;
+    while(start<=end){
+        int mid=(start+end)/2;
+        if(arr[mid]==target){
+            cout<<arr[mid]<<" is present in the array element with index value "<<mid<<endl;
+            break;
+        }
+        else if(arr[mid]>target){
+            end=mid-1;
+        }
+        else{
+            start=mid+1;
+        }
+    } 
+*/
