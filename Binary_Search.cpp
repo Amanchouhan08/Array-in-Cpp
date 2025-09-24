@@ -55,6 +55,7 @@ int main(){
 }
 
 
+//code for binary search
 /*
  int start=0;
     int end=size_of_arrar-1;
