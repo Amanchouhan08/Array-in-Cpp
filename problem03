@@ -1,3 +1,4 @@
+//how we update array in mannual way.
 #include <iostream>
 using namespace std;
 
